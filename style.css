@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.judul {
+    background-color: black;
+    border: 1px solid black;
+    color: aliceblue;
+    margin-inline: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: medium;
+    z-index: 2;
+    position: fixed;
+    padding: 30px;
+}
+
+.foto {
+    display: block;
+    margin-inline: auto;
+    width: 40%;
+    height: 50%;
+    padding: 12px;
+}
+
+.teks {
+    margin: 8px;
+    text-align: center;
+}
+
+body {
+    background-color: #B5C0D0;
+}
